@@ -1,0 +1,39 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(53, 53, 197);
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+img{
+    max-width: 30%;
+}
+.hasab{
+    max-width: 45%;
+    float:left;
+    margin: 10px;
+}
+.balkep{
+    float: left;
+    margin: 10px 10px 5px 0;
+}
+.jobbkep{
+    float: right;
+
+}
+.content{
+    background: beige;
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
